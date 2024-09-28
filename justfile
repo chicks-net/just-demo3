@@ -11,3 +11,7 @@ check:
 newdep crate_name: check
     cargo add {{crate_name}}
     cargo doc
+
+# extract version
+@version:
+  toml get -r Cargo.toml package.version
