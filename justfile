@@ -4,10 +4,10 @@ try: check
 
 # unit testing
 check:
-  cargo clippy
-  cargo test --workspace
+    cargo clippy
+    cargo test --workspace
 
 # add a crate
 newdep crate_name: check
-  cargo add {{crate_name}}
-  cargo doc
+    cargo add {{crate_name}}
+    cargo doc
