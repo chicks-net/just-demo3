@@ -43,3 +43,13 @@ merge: on_a_branch
   gh pr merge -s
   git co {{release_branch}}
   git pull
+
+# say hello chicks
+hello_chicks:
+        #!/usr/bin/env perl
+        print "hello chicks\n";
+
+# say howdy internet people
+howdy_net:
+        #!/usr/bin/env lua
+        print("howdy internet people");
