@@ -1,9 +1,10 @@
-try:
+try: check
   cargo run --
 
-[no-cd]
-ls:
-  ls -ltr
+check:
+  cargo clippy
+  cargo test --workspace
 
-top-ls:
-  ls -ltr
+newdep crate_name: check
+  cargo add {{crate_name}}
+  cargo doc
