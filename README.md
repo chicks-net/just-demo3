@@ -4,7 +4,6 @@
 ![GitHub License](https://img.shields.io/github/license/chicks-net/just-demo3)
 ![GitHub repo size](https://img.shields.io/github/repo-size/chicks-net/just-demo3)
 ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/chicks-net/just-demo3/verify.yaml)
-![GitHub branch status](https://img.shields.io/github/checks-status/chicks-net/just-demo3/main)
 ![Dynamic TOML Badge](https://img.shields.io/badge/dynamic/toml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fchicks-net%2Fjust-demo3%2Frefs%2Fheads%2Fmain%2FCargo.toml&query=%24.package.version&label=package.version)
 
 "just a demo of just"
